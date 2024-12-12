@@ -1,0 +1,157 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+     /* Стили для формы */
+ .login-form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #ffffff; /* Белый фон для формы */
+     border-radius: 8px; /* Радиус для закругления углов */
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Тень для эффекта подъема */
+     padding: 20px; /* Внутренние отступы */
+     max-width: 400px; /* Максимальная ширина формы */
+     margin: 50px auto; /* Центрируем форму на странице */
+ }
+
+/* Заголовок */
+.login-form h1 {
+    margin-bottom: 20px; /* Отступ снизу для заголовка */
+    color: #333; /* Темный цвет текста */
+}
+
+/* Метка */
+.login-form label {
+    margin-bottom: 10px; /* Отступ вниз от метки */
+    font-weight: bold; /* Полужирный текст для метки */
+    color: #555; /* Цвет текста метки */
+}
+
+/* Поле ввода */
+.login-form input[type='text'] {
+    padding: 10px; /* Внутренние отступы */
+    width: 100%; /* Полная ширина поля */
+    border: 1px solid #ccc; /* Рамка для поля */
+    border-radius: 4px; /* Закругление углов */
+    margin-bottom: 20px; /* Отступ снизу между полем и кнопкой */
+    font-size: 16px; /* Размер шрифта */
+    transition: border-color 0.3s; /* Плавный переход цвета рамки */
+}
+
+/* Эффект фокуса для поля ввода */
+.login-form input[type='text']:focus {
+    border-color: #007bff; /* Синий цвет рамки при фокусе */
+    outline: none; /* Убираем стандартное обводирование */
+}
+
+/* Кнопка */
+.login-form button {
+    padding: 10px 20px; /* Внутренние отступы для кнопки */
+    background-color: #007bff; /* Синий фон для кнопки */
+    color: #fff; /* Белый текст на кнопке */
+    border: none; /* Убираем стандартные рамки */
+    border-radius: 4px; /* Закругление углов */
+    cursor: pointer; /* Курсор в виде руки при наведении */
+    font-size: 16px; /* Размер шрифта кнопки */
+    transition: background-color 0.3s; /* Плавный переход для фона кнопки */
+}
+
+/* Эффект при наведении на кнопку */
+.login-form button:hover {
+    background-color: #0056b3; /* Темнее синий цвет при наведении */
+}
+.btn {
+    background-color: #ff4c4c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.chats {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.message-sender {
+    background-color: #d1e7dd; /* Цвет для отправленных сообщений */
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 70%;
+    margin-right: auto;
+}
+
+.message-recipient {
+    background-color: #f8d7da; /* Цвет для полученных сообщений */
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 70%;
+    margin-left: auto;
+}
+
+.message-block {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+.message-block input {
+    flex-grow: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.message-block button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sidebar {
+    background-color: #fafafa;
+    height: 100vh;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar .header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.users {
+    list-style: none;
+    padding: 0;
+}
+
+.users li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat {
+    display: flex;
+    height: 100vh;
+}

@@ -1,0 +1,21 @@
+Видос:
+https://youtube.com/watch?v=18E5B1AJ5mM
+
+npm i express cors nodemon socket.io
+
+Insert into index.js Date
+
+npm create vite@latest client --template react        => Vue    => Java Script
+cd client
+npm i
+npm run dev
+
+Ctrl+C
+npm i socket.io-client react-router-dom
+
+
+
+ROUTER
+npm install vue-router@4
+И пути!
+Измени main.js, добавив роутер
